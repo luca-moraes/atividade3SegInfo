@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T00:17:03.694Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="sXTR5fNH-yzPjGsNupzZ" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T00:22:56.541Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="D6n466imjK5z0lIpnUhu" version="24.4.9" type="github">
   <diagram name="Page-1" id="gvLxUHFnU8IZa0GzhTcP">
     <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
             <mxPoint x="330" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="05OaDS_oxycDDYmmTc8Z-1" value="Invasor consegue acesso indevido ao sistema, podendo roubar dados ou&amp;nbsp;&lt;div&gt;derrubar a disponibilidade do serviço&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="05OaDS_oxycDDYmmTc8Z-1" value="O sistema é suscetível a múltiplas vulnerabilidades devido a um design inseguro." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="120" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="05OaDS_oxycDDYmmTc8Z-2" value="O projeto agora&lt;div&gt;&amp;nbsp;está com um problema crítico.&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -73,7 +73,7 @@
             <mxPoint x="1110" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="05OaDS_oxycDDYmmTc8Z-4" value="O sistema acaba executando um script malicioso e agora está vulnerável." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="05OaDS_oxycDDYmmTc8Z-4" value="Arquitetura e frameworks inseguros são utilizados no desenvolvimento." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1160" y="320" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="05OaDS_oxycDDYmmTc8Z-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="05OaDS_oxycDDYmmTc8Z-4" target="05OaDS_oxycDDYmmTc8Z-1">
@@ -82,7 +82,7 @@
             <mxPoint x="1110" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="05OaDS_oxycDDYmmTc8Z-6" value="Input de dados não realiza validação do conteúdo fornecido nos campos de texto" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="05OaDS_oxycDDYmmTc8Z-6" value="Falta de implementação de práticas de segurança desde o início do desenvolvimento." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1160" y="480" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="05OaDS_oxycDDYmmTc8Z-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="05OaDS_oxycDDYmmTc8Z-6" target="05OaDS_oxycDDYmmTc8Z-4">
@@ -91,7 +91,7 @@
             <mxPoint x="1140" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="05OaDS_oxycDDYmmTc8Z-8" value="O atacante rouba todos os dados da aplicação e disponibiliza informações sensíveis online." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="05OaDS_oxycDDYmmTc8Z-8" value="Ataques frequentes causam falhas no serviço, prejudicando a disponibilidade da aplicação." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="680" y="320" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="05OaDS_oxycDDYmmTc8Z-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="05OaDS_oxycDDYmmTc8Z-10" target="05OaDS_oxycDDYmmTc8Z-1">
@@ -100,7 +100,7 @@
             <mxPoint x="820" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="05OaDS_oxycDDYmmTc8Z-10" value="Aplicação é derrubada, o projeto e os usuários são prejudicados" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="05OaDS_oxycDDYmmTc8Z-10" value="Vulnerabilidades são exploradas, comprometendo a integridade e a confidencialidade dos dados." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="840" y="320" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="05OaDS_oxycDDYmmTc8Z-11" value="O projeto agora&lt;div&gt;&amp;nbsp;está com um problema crítico.&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
